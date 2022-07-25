@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+not_run: CucumberKW.runFeatureFolder('Include/features')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+not_run: CucumberKW.runFeatureFileWithTags('Include/features/Login.feature', ((['@invalid', '@smoke']) as String[]))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyTextPresent('Welcome123', false, FailureHandling.OPTIONAL)
-
-WebUI.closeBrowser()
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
