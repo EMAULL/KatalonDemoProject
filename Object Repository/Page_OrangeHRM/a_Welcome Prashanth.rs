@@ -6,12 +6,12 @@
    <elementGuidId>62b64810-b0fd-4602-b44c-7f168f2a9308</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#welcome</value>
+         <key>XPATH</key>
+         <value>//a[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='welcome']</value>
+         <key>CSS</key>
+         <value>#welcome</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
