@@ -21,11 +21,11 @@ import internal.GlobalVariable
 
 public class MyKeywords {
 
-	@Keyword
+	@Keyword(keywordObject = 'Hello')
 	def Hello() {
 		println " Hello World..."
 	}
-	
+
 	@Keyword
 	def hellouser(String user) {
 		println "  Hello "+user
