@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_org.openqa.selenium</name>
+   <name>a_AcceptedW3CCapabilityKeys</name>
    <tag></tag>
-   <elementGuidId>7336f358-d1f3-4b28-ab4d-869742418264</elementGuidId>
+   <elementGuidId>21d9f3ac-e572-4bcf-80a3-0084e139f7de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>ul[title=&quot;Packages&quot;] > li > a</value>
+         <value>a[title=&quot;class in org.openqa.selenium&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'org.openqa.selenium')]</value>
+         <value>//a[contains(text(),'AcceptedW3CCapabilityKeys')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,118 +22,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3441cf95-5a73-49fd-a259-7701d399e8f1</webElementGuid>
+      <webElementGuid>82c5d224-b769-41eb-adee-3cc5d0caa567</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>org/openqa/selenium/package-frame.html</value>
-      <webElementGuid>1c2e894e-b090-4943-89d0-d205643ccab1</webElementGuid>
+      <value>AcceptedW3CCapabilityKeys.html</value>
+      <webElementGuid>1a384629-00c7-4221-bb5b-55785522f4be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>class in org.openqa.selenium</value>
+      <webElementGuid>17a42906-6d15-4680-badd-9d1b29185403</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>target</name>
       <type>Main</type>
-      <value>packageFrame</value>
-      <webElementGuid>7160a4e5-8789-43b7-905a-59dbfc76a9f9</webElementGuid>
+      <value>classFrame</value>
+      <webElementGuid>fde1e3ec-1f09-421e-a8b5-4cdf5a799b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>org.openqa.selenium</value>
-      <webElementGuid>61a6727e-e171-426b-8d76-1417582e25ea</webElementGuid>
+      <value>AcceptedW3CCapabilityKeys</value>
+      <webElementGuid>4056838b-f5e7-4ad1-ace1-c12257b96b2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[@class=&quot;indexContainer&quot;]/ul[1]/li[1]/a[1]</value>
-      <webElementGuid>89b9ef32-05b6-4eda-887f-bb5ac4f25149</webElementGuid>
+      <value>/html[1]/body[1]/main[1]/div[@class=&quot;indexContainer&quot;]/section[2]/ul[1]/li[1]/a[1]</value>
+      <webElementGuid>c53e097a-4cc8-4546-a7a4-e05254e67b71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Overview/iframe_packageListFrame</value>
-      <webElementGuid>2bd025c1-d744-48d7-a065-50cb51344ef8</webElementGuid>
+      <value>Object Repository/Page_Overview/iframe_packageFrame</value>
+      <webElementGuid>6ba28c0d-f932-4c8d-b0fe-a3b6643addec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'org.openqa.selenium')]</value>
-      <webElementGuid>7f14345b-0f91-48e1-b536-67956c0a9415</webElementGuid>
+      <value>//a[contains(text(),'AcceptedW3CCapabilityKeys')]</value>
+      <webElementGuid>832a8acc-2824-43fd-a870-b4d62ae416f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Packages'])[1]/following::a[1]</value>
-      <webElementGuid>a96be8ff-306c-4c26-a889-33057191bc77</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Classes'])[1]/following::a[1]</value>
+      <webElementGuid>df307a47-a58e-4799-b706-f3aee214fb4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Classes'])[1]/following::a[1]</value>
-      <webElementGuid>ba8b788b-4af5-4a63-8dfa-8d310968ed40</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WrapsElement'])[1]/following::a[1]</value>
+      <webElementGuid>52ce9f7c-9cd2-40bf-bc32-8ff804034611</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi'])[1]/preceding::a[1]</value>
-      <webElementGuid>958bd831-8410-4d54-b0a4-c09758641119</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BuildInfo'])[1]/preceding::a[1]</value>
+      <webElementGuid>174b57a4-b69e-4805-8700-6b2aa93319e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi.log'])[1]/preceding::a[2]</value>
-      <webElementGuid>cfb4473a-1981-471f-8953-b63a5752dd6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='By'])[1]/preceding::a[2]</value>
+      <webElementGuid>477eca76-b22b-4f5b-84e5-25bc55fe13f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='org.openqa.selenium']/parent::*</value>
-      <webElementGuid>ba5004f1-7840-43fc-80b3-c62b8d5232fe</webElementGuid>
+      <value>//*/text()[normalize-space(.)='AcceptedW3CCapabilityKeys']/parent::*</value>
+      <webElementGuid>44e55d0e-7713-4b61-b852-0255302c7051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'org/openqa/selenium/package-frame.html')]</value>
-      <webElementGuid>698bd26b-8b04-42ae-8c03-88c286f4c8ae</webElementGuid>
+      <value>//a[contains(@href, 'AcceptedW3CCapabilityKeys.html')]</value>
+      <webElementGuid>31d7ffa8-21b8-4ef9-a77a-0d46d9571b23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//main/ul/li/a</value>
-      <webElementGuid>a4f275f5-9977-4f85-a9df-47b75f700deb</webElementGuid>
+      <value>//section[2]/ul/li/a</value>
+      <webElementGuid>4a50f396-f9eb-4b4c-9fba-62c3dd522623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'org/openqa/selenium/package-frame.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium')]</value>
-      <webElementGuid>2d906d5d-8ffa-4baa-81e4-2d9ebd899cb3</webElementGuid>
+      <value>//a[@href = 'AcceptedW3CCapabilityKeys.html' and @title = 'class in org.openqa.selenium' and (text() = 'AcceptedW3CCapabilityKeys' or . = 'AcceptedW3CCapabilityKeys')]</value>
+      <webElementGuid>8a083219-9ad3-4d7d-9ede-e513197ae704</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

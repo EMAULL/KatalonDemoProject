@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_packageFrame</name>
+   <name>iframe_classFrame</name>
    <tag></tag>
-   <elementGuidId>cab107bc-d663-49ab-95de-6b65bc1b7c30</elementGuidId>
+   <elementGuidId>0d4f723c-e005-4936-9992-503a8d4a0b06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>iframe[name=&quot;packageFrame&quot;]</value>
+         <value>iframe[name=&quot;classFrame&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@name='packageFrame']</value>
+         <value>//iframe[@name='classFrame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,62 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>604c3c4e-4a6d-480f-a682-6f61c06aa2e4</webElementGuid>
+      <webElementGuid>45f87218-33de-474b-aa4e-4b523d4b3b40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>allclasses-frame.html</value>
-      <webElementGuid>0b7556e3-7faa-47dd-b006-45f9647398c3</webElementGuid>
+      <value>overview-summary.html</value>
+      <webElementGuid>64631fb0-bf5f-4eb2-8943-a834417c6bfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>packageFrame</value>
-      <webElementGuid>5d4ccb70-92d8-4071-82f9-7e764f6fd6da</webElementGuid>
+      <value>classFrame</value>
+      <webElementGuid>eb5df165-964e-4541-b216-e401ef41e9e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>All classes and interfaces (except non-static nested types)</value>
-      <webElementGuid>c0f81c5e-b311-4220-a0b7-639d5a988a68</webElementGuid>
+      <value>Package, class and interface descriptions</value>
+      <webElementGuid>7a3ba778-bce7-45b4-93b3-c9f456c56931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rightIframe</value>
+      <webElementGuid>8881742b-4212-4784-a277-274a6c051e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/main[1]/div[@class=&quot;mainContainer&quot;]/div[@class=&quot;leftContainer&quot;]/div[@class=&quot;leftBottom&quot;]/iframe[1]</value>
-      <webElementGuid>835fa8d9-e87b-44f2-9bb9-731ded336d87</webElementGuid>
+      <value>/html[1]/body[1]/main[1]/div[@class=&quot;mainContainer&quot;]/div[@class=&quot;rightContainer&quot;]/iframe[@class=&quot;rightIframe&quot;]</value>
+      <webElementGuid>cbcb67ad-2620-4d65-ae7c-e7fce2a46842</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@name='packageFrame']</value>
-      <webElementGuid>fc6e905b-fb4a-4d9f-9cba-fcd421fec10b</webElementGuid>
+      <value>//iframe[@name='classFrame']</value>
+      <webElementGuid>5f6b005e-6779-47f9-a576-84a41ac33a70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/iframe</value>
-      <webElementGuid>708f55a1-776d-4dd0-9c68-95bd0753484d</webElementGuid>
+      <value>//div[2]/iframe</value>
+      <webElementGuid>c72ca137-312e-4185-890b-d2b1fab07714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//iframe[@src = 'allclasses-frame.html' and @name = 'packageFrame' and @title = 'All classes and interfaces (except non-static nested types)']</value>
-      <webElementGuid>aa5324a9-d2f2-4b66-bd51-fbca452ea809</webElementGuid>
+      <value>//iframe[@src = 'overview-summary.html' and @name = 'classFrame' and @title = 'Package, class and interface descriptions']</value>
+      <webElementGuid>301b3421-ef4d-4321-b7c4-e76ff18708e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

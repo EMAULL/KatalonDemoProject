@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe_packageListFrame</name>
    <tag></tag>
-   <elementGuidId>fafbe7bd-5090-4977-a771-5a01fe1db408</elementGuidId>
+   <elementGuidId>fa52597c-2771-496a-ba96-058e8cab9585</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>2c0021b8-7777-42e4-b040-8fbd952cc4a3</webElementGuid>
+      <webElementGuid>cb8c9b7f-9a3d-42c8-8674-3999a7b9fd20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>overview-frame.html</value>
-      <webElementGuid>8a0c3c2a-430a-4f0d-802d-e62a7dd229e4</webElementGuid>
+      <webElementGuid>79ee2eba-8c65-47a5-b1b9-b7ffeb2daeef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>packageListFrame</value>
-      <webElementGuid>8bcc2ccb-0711-42c5-8e34-7bbd3a5fbaf9</webElementGuid>
+      <webElementGuid>19ce14cc-d0d8-4bdf-b200-b22b3cc27410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>All Packages</value>
-      <webElementGuid>9ac85a51-31da-49f8-92c9-cd59b0aae598</webElementGuid>
+      <webElementGuid>f2e53f1f-f587-482e-a6b9-62f1de55f26d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/div[@class=&quot;mainContainer&quot;]/div[@class=&quot;leftContainer&quot;]/div[@class=&quot;leftTop&quot;]/iframe[1]</value>
-      <webElementGuid>b4fc2ca0-99f4-47da-929e-ccf154ab1c86</webElementGuid>
+      <webElementGuid>cba4326a-93b5-45bc-a1c8-d6615edd7ecf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@name='packageListFrame']</value>
-      <webElementGuid>09f1db19-c24a-408f-aa18-d61e974f3f75</webElementGuid>
+      <webElementGuid>d795f212-10ed-4a0a-b748-48a2a01a796c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>292e345a-e341-4b74-bf96-8437717bb40d</webElementGuid>
+      <webElementGuid>95bc5a97-d9ce-4471-98cb-3fc187bf200c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@src = 'overview-frame.html' and @name = 'packageListFrame' and @title = 'All Packages']</value>
-      <webElementGuid>983356d5-e253-4d46-a492-7ad6e111a1c0</webElementGuid>
+      <webElementGuid>55cac336-5c3e-43cb-be65-6491b8e48691</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Overview/a_org.openqa.selenium'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Overview/a_AcceptedW3CCapabilityKeys'))
 
-WebUI.click(findTestObject('Object Repository/Page_HasCapabilities/span_All Methods'))
+WebUI.click(findTestObject('Object Repository/Page_AcceptedW3CCapabilityKeys/span_Constructors'))
+
+WebUI.closeBrowser()
 
